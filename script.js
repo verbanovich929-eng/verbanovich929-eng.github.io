@@ -1,13 +1,7 @@
-const SITE_CONFIG = {portfolioUrl:'',telegramUrl:'https://t.me/veerrba'};
+const SITE_CONFIG = {portfolioUrl:'https://disk.yandex.ru/d/efgRmM-5nYeRGQ',telegramUrl:'https://t.me/veerrba'};
 const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 const $ = selector => document.querySelector(selector);
-const dialog = $('#portfolio-dialog');
-let portfolio;
-try {const u=new URL(SITE_CONFIG.portfolioUrl);if(u.protocol==='https:'&&['disk.yandex.ru','disk.yandex.com','yadi.sk'].includes(u.hostname))portfolio=u.href;}catch{}
-document.querySelectorAll('.portfolio-button').forEach(button=>button.addEventListener('click',()=>{if(portfolio)window.open(portfolio,'_blank','noopener,noreferrer');else dialog.showModal();}));
-if(portfolio)$('.hero-action>span').textContent='ПОРТФОЛИО НА ЯНДЕКС ДИСКЕ';
-$('.dialog-close').addEventListener('click',()=>dialog.close());
-dialog.addEventListener('click',event=>{if(event.target!==dialog)return;const r=dialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)dialog.close();});
+document.querySelectorAll('.portfolio-button').forEach(link => {link.href=SITE_CONFIG.portfolioUrl;});
 $('#year').textContent=new Date().getFullYear();
 const stages=[
  {base:'sketch',overlay:'sketch',label:'CHARACTER BRIEF / 001',kicker:'СНАЧАЛА — ИСТОРИЯ',title:'КТО ОН<br>И ЗАЧЕМ ОН ЗДЕСЬ?',text:'Начинаем с характера и роли в истории. Наш герой — городской курьер: быстрый, уверенный, немного дерзкий. Этот характер определяет позу, силуэт, одежду и движение.',hint:'НАЖМИТЕ «СКЕТЧ», ЧТОБЫ ПЕРЕЙТИ К ЛИНИЯМ',specific:'personality'},
