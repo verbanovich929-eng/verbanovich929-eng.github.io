@@ -1,0 +1,336 @@
+{
+  "fps": 30,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "duration": 43.0,
+  "sequence": [
+    {
+      "kind": "shot",
+      "source": "sustav.MOV",
+      "start": 9.2,
+      "duration": 1.5,
+      "label": "hook_volume",
+      "index": 0,
+      "timeline_start": 0,
+      "timeline_end": 1.5
+    },
+    {
+      "kind": "shot",
+      "source": "demo_led.MOV",
+      "start": 22.8,
+      "duration": 1.0,
+      "label": "hook_ice",
+      "index": 1,
+      "timeline_start": 1.5,
+      "timeline_end": 2.5
+    },
+    {
+      "kind": "title",
+      "duration": 1,
+      "label": "intro",
+      "index": 2,
+      "timeline_start": 2.5,
+      "timeline_end": 3.5
+    },
+    {
+      "kind": "shot",
+      "source": "bel_shina.mp4",
+      "start": 13.0,
+      "duration": 2,
+      "label": "car_side",
+      "index": 3,
+      "timeline_start": 3.5,
+      "timeline_end": 5.5
+    },
+    {
+      "kind": "shot",
+      "source": "bel_shina.mp4",
+      "start": 2.7,
+      "duration": 1,
+      "label": "tire",
+      "index": 4,
+      "timeline_start": 5.5,
+      "timeline_end": 6.5
+    },
+    {
+      "kind": "shot",
+      "source": "demo_led.MOV",
+      "start": 2.3,
+      "duration": 1,
+      "label": "human_closeup",
+      "index": 5,
+      "timeline_start": 6.5,
+      "timeline_end": 7.5
+    },
+    {
+      "kind": "shot",
+      "source": "alko_1.MOV",
+      "start": 0.3,
+      "duration": 1.5,
+      "label": "cherry_splash",
+      "index": 6,
+      "timeline_start": 7.5,
+      "timeline_end": 9.0
+    },
+    {
+      "kind": "shot",
+      "source": "alko_1.MOV",
+      "start": 2.6,
+      "duration": 1,
+      "label": "grapefruit",
+      "index": 7,
+      "timeline_start": 9.0,
+      "timeline_end": 10.0
+    },
+    {
+      "kind": "shot",
+      "source": "alko_1.MOV",
+      "start": 15.4,
+      "duration": 1.5,
+      "label": "cat_dj",
+      "index": 8,
+      "timeline_start": 10.0,
+      "timeline_end": 11.5
+    },
+    {
+      "kind": "triple",
+      "sources": [
+        {
+          "source": "energy_2.MOV",
+          "start": 2
+        },
+        {
+          "source": "energy.mp4",
+          "start": 6
+        },
+        {
+          "source": "gorilla.MOV",
+          "start": 7.5
+        }
+      ],
+      "duration": 2.5,
+      "label": "energy_triptych",
+      "index": 9,
+      "timeline_start": 11.5,
+      "timeline_end": 14.0
+    },
+    {
+      "kind": "shot",
+      "source": "горизонт 4.mp4",
+      "start": 4.0,
+      "duration": 1.5,
+      "label": "cap",
+      "index": 10,
+      "timeline_start": 14.0,
+      "timeline_end": 15.5
+    },
+    {
+      "kind": "shot",
+      "source": "горизонт 4.mp4",
+      "start": 12.1,
+      "duration": 1.5,
+      "label": "pour",
+      "index": 11,
+      "timeline_start": 15.5,
+      "timeline_end": 17.0
+    },
+    {
+      "kind": "shot",
+      "source": "istoriy_promio.MOV",
+      "start": 57,
+      "duration": 1.5,
+      "label": "ships",
+      "index": 12,
+      "timeline_start": 17.0,
+      "timeline_end": 18.5
+    },
+    {
+      "kind": "shot",
+      "source": "istoriy_promio.MOV",
+      "start": 26.5,
+      "duration": 1.5,
+      "label": "horse",
+      "index": 13,
+      "timeline_start": 18.5,
+      "timeline_end": 20.0
+    },
+    {
+      "kind": "shot",
+      "source": "istoriy.MOV",
+      "start": 0.2,
+      "duration": 1.5,
+      "label": "arctic_plane",
+      "index": 14,
+      "timeline_start": 20.0,
+      "timeline_end": 21.5
+    },
+    {
+      "kind": "shot",
+      "source": "istoriy.MOV",
+      "start": 19.6,
+      "duration": 1.5,
+      "label": "arctic_land",
+      "index": 15,
+      "timeline_start": 21.5,
+      "timeline_end": 23.0
+    },
+    {
+      "kind": "triple",
+      "sources": [
+        {
+          "source": "doritos.MOV",
+          "start": 9.6
+        },
+        {
+          "source": "mila.mp4",
+          "start": 5.3
+        },
+        {
+          "source": "mila.mp4",
+          "start": 31.5
+        }
+      ],
+      "duration": 3,
+      "label": "animation_triptych",
+      "index": 16,
+      "timeline_start": 23.0,
+      "timeline_end": 26.0
+    },
+    {
+      "kind": "shot",
+      "source": "rusagro.MOV",
+      "start": 51.8,
+      "duration": 1.5,
+      "label": "painting",
+      "index": 17,
+      "timeline_start": 26.0,
+      "timeline_end": 27.5
+    },
+    {
+      "kind": "shot",
+      "source": "rusagro.MOV",
+      "start": 59.5,
+      "duration": 1.5,
+      "label": "gallery",
+      "index": 18,
+      "timeline_start": 27.5,
+      "timeline_end": 29.0
+    },
+    {
+      "kind": "shot",
+      "source": "ptomo__3.MOV",
+      "start": 7.5,
+      "duration": 1.5,
+      "label": "production",
+      "index": 19,
+      "timeline_start": 29.0,
+      "timeline_end": 30.5
+    },
+    {
+      "kind": "shot",
+      "source": "sustav.MOV",
+      "start": 25.0,
+      "duration": 1.5,
+      "label": "sculpture_creation",
+      "index": 20,
+      "timeline_start": 30.5,
+      "timeline_end": 32.0
+    },
+    {
+      "kind": "triple",
+      "sources": [
+        {
+          "source": "duhi.MOV",
+          "start": 13.2
+        },
+        {
+          "source": "duhi.MOV",
+          "start": 18.9
+        },
+        {
+          "source": "duhi.MOV",
+          "start": 26.0
+        }
+      ],
+      "duration": 2,
+      "label": "golden_worlds",
+      "index": 21,
+      "timeline_start": 32.0,
+      "timeline_end": 34.0
+    },
+    {
+      "kind": "shot",
+      "source": "bel_shina.mp4",
+      "start": 10.9,
+      "duration": 1,
+      "label": "car_front",
+      "index": 22,
+      "timeline_start": 34.0,
+      "timeline_end": 35.0
+    },
+    {
+      "kind": "shot",
+      "source": "alko_1.MOV",
+      "start": 7.6,
+      "duration": 0.5,
+      "label": "fruit_flash",
+      "index": 23,
+      "timeline_start": 35.0,
+      "timeline_end": 35.5
+    },
+    {
+      "kind": "shot",
+      "source": "demo_led.MOV",
+      "start": 23.0,
+      "duration": 1,
+      "label": "ice_final",
+      "index": 24,
+      "timeline_start": 35.5,
+      "timeline_end": 36.5
+    },
+    {
+      "kind": "shot",
+      "source": "istoriy_promio.MOV",
+      "start": 5.2,
+      "duration": 0.5,
+      "label": "fire_flash",
+      "index": 25,
+      "timeline_start": 36.5,
+      "timeline_end": 37.0
+    },
+    {
+      "kind": "shot",
+      "source": "sustav.MOV",
+      "start": 14.6,
+      "duration": 1,
+      "label": "light_final",
+      "index": 26,
+      "timeline_start": 37.0,
+      "timeline_end": 38.0
+    },
+    {
+      "kind": "shot",
+      "source": "bel_shina.mp4",
+      "start": 14.1,
+      "duration": 1,
+      "label": "car_final",
+      "index": 27,
+      "timeline_start": 38.0,
+      "timeline_end": 39.0
+    },
+    {
+      "kind": "title",
+      "duration": 4,
+      "label": "outro",
+      "index": 28,
+      "timeline_start": 39.0,
+      "timeline_end": 43.0
+    }
+  ],
+  "music": {
+    "source": "alko_1.MOV",
+    "description": "Instrumental audio from supplied portfolio video; approximate 128 BPM retimed to 120 BPM, looped, normalized, with synthesized transition accents."
+  }
+}
